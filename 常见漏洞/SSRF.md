@@ -9,20 +9,23 @@
 ## 攻击（利用）
 
 - 对内网主机进行端口扫描，获取一些服务的 Banner 信息。
-
 - 对内网 Web 应用进行指纹识别，通过访问默认文件实现。
-
 - 攻击运行在内网的应用程序，攻击 redis、fastcgi、mysql等。
-
 - 攻击内外网的 Web 应用，通过GET/POST传参就可以实现的攻击，如：st2、sqli等。
-
 - http/s 协议，获取Web请求内容。
-
 - file 协议 ，本地文件传输协议，用于读取本地文件，`file:///etc/passwd`。
-
 - gopher 协议，文件搜集获取网络协议，出现在http协议之前，可以模拟GET/POST请求（换行使用%0d%0a，空白行%0a）。因此可以先截获GET/POST请求包，再构造成符合gopher协议的请求。gopher协议传输的数据默认会吞掉首字符，`gopher://localhost:2222/_hello%0agopher`需要在数据前加一个无用字符。在地址栏中利用要再URL编码一次。
-
 - dict 协议，字典服务器协议，是基于查询响应的TCP协议。dict协议有个特性：`dict://serverip:port/cmd:p1:p2` 向服务器的端口请求 cmd p1 p2，并在末尾自动补上rn(CRLF)。因此在漏洞没有屏蔽回显的情况下，可以利用dict协议获取敏感信息。
+
+补充：基于 TCP Stream 且不做交互的点都可以进行攻击利用，包括但不限于：
+
+- HTTP GET/POST -> Struts2、Web Vuls...
+- Redis、Memcache、无认证MySQL
+- PHP-FPM（FastCGI）
+- SMTP
+- Telnet
+- 基于一个 TCP 包的 exploit
+- FTP（不能实现上传下载文件，但是在有回显的情况下可用于爆破内网 FTP）
 
 
 ## 防御（修复）
@@ -56,7 +59,7 @@ URL组成：
 
 ![](https://github.com/SewellDinG/CyberSecInterviewPreparation/blob/master/常见漏洞/images/DNSRebinding.png)
 
-## 补充
+补充：
 
 ### 1、更改IP地址写法
 
@@ -81,7 +84,7 @@ URL组成：
 
 ### 2、利用302跳转
 
-（1）利用xip.io、xip.name。
+（1）、利用xip.io、xip.name。
 
 ```
 10.0.0.1.xip.io 10.0.0.1
@@ -122,6 +125,22 @@ DNS重绑定可以利用于ssrf绕过 ，bypass 同源策略等
 由于已经绕过验证，所以服务器端返回访问内网资源的结果。
 ```
 
+## 局限性
+
+经过测试发现 Gopher 的以下几点局限性：
+
+- 大部分 PHP 并不会开启 fopen 的 gopher wrapper
+- file_get_contents 的 gopher 协议不能 URLencode
+- file_get_contents 关于 Gopher 的 302 跳转有 bug，导致利用失败
+- PHP 的 curl 默认不 follow 302 跳转
+- curl/libcurl 7.43  gopher 协议存在 bug（%00 截断），经测试 7.49 可用
+
+## 工具
+
+[SSRFmap](https://github.com/swisskyrepo/SSRFmap)：将burp导出的请求包作为输入，并选取一个参数进行SSRF Fuzz，支持需要服务。
+
+[Gopherus](https://github.com/tarunkant/Gopherus)：针对不同服务生成不同gopher请求。
+
 ## 实例
 
-- 自动更新文章的爬虫，可控制url参数。[1](https://xz.aliyun.com/t/7256)
+- 代码审计。三次绕过补丁。自动更新文章的爬虫，可控制url参数。[1](https://xz.aliyun.com/t/7256)
