@@ -31,7 +31,7 @@
 - 各种Java反序列化原理（RMI、Fastjson、Weblogic）
 - fastjson的利用和原理？
 - redis无写权限，无反序列化问题，不能主从复制getshell，怎么利用？
-- 有ssrf+redis弱口令，禁用gopher协议，怎么利用？
+- [有ssrf+redis弱口令，禁用gopher协议，怎么利用？](https://github.com/SewellDinG/CyberSecInterviewPreparation/blob/master/常见漏洞/有ssrf+redis弱口令，禁用gopher协议.md)
 - oracle的盲注和dnslog注入，说说看？
 
 
