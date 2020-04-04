@@ -45,6 +45,7 @@
 - [渗透过程中碰到的问题？](./经验相关/渗透过程中碰到的问题.md)
 - 聊项目？印象最深刻的一次项目？项目介绍、项目中的难点、你在项目中充当的角色。STAR原则。
 - 做CTF的Web题有什么心得，说说看？
+- [内网渗透心得？](https://github.com/SewellDinG/CyberSecInterviewPreparation/blob/master/%E7%BB%8F%E9%AA%8C%E7%9B%B8%E5%85%B3/%E5%86%85%E7%BD%91%E6%B8%97%E9%80%8F.md)
 
 
 
