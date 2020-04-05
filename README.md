@@ -27,7 +27,7 @@
 - CSRF相关的内容（域的概念、跨域的方法、CSRF防御的各种方法对比、Same-site Cookie）
 - [SSRF漏洞原理与常见绕过的方法？](./常见漏洞/SSRF.md)
 - XXE漏洞原理与常见利用的方法？
-- SQL注入原理与常见利用的方法（报错注入、BOOL盲注、时间盲注、宽字节注入等原理）
+- SQL注入原理与常见利用的方法（报错注入、BOOL盲注、时间盲注、[宽字节注入](https://github.com/SewellDinG/CyberSecInterviewPreparation/blob/master/%E5%B8%B8%E8%A7%81%E6%BC%8F%E6%B4%9E/%E5%AE%BD%E5%AD%97%E8%8A%82%E6%B3%A8%E5%85%A5.md)等原理）
 - 各种Java反序列化原理（RMI、Fastjson、Weblogic）
 - fastjson的利用和原理？
 - redis无写权限，无反序列化问题，不能主从复制getshell，怎么利用？
