@@ -14,6 +14,10 @@
 - [如何将代码审计变成CTF---面向github代码审计](https://xz.aliyun.com/t/7256)：SSRF bypass，代码审计，三次绕过补丁
 - [经典写配置漏洞与几种变形](https://www.leavesongs.com/PENETRATION/thinking-about-config-file-arbitrary-write.html)：PHP，bypass正则
 - [暗度陈仓：基于国内某云的 Domain Fronting 技术实践](https://www.anquanke.com/post/id/195011)：域前置漏洞，CDN，Cobalt Strike's C2 Profile
+
+## 内网渗透
+
+- [内网渗透基础知识](http://mang0.me/archis/7db24e65)：工作组、域环境相关基本概念
 - [彻底理解Windows认证 - 议题解读](https://payloads.online/archivers/2018-11-30/1)：从本地认证，网络认证，域认证介绍了相关流程及相应技术
 
 ## 工具使用
