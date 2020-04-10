@@ -27,12 +27,20 @@
 - CSRF相关的内容（域的概念、跨域的方法、CSRF防御的各种方法对比、Same-site Cookie）
 - [SSRF漏洞原理与常见绕过的方法？](./常见漏洞/SSRF.md)
 - XXE漏洞原理与常见利用的方法？
-- SQL注入原理与常见利用的方法（报错注入、BOOL盲注、时间盲注、[宽字节注入](https://github.com/SewellDinG/CyberSecInterviewPreparation/blob/master/%E5%B8%B8%E8%A7%81%E6%BC%8F%E6%B4%9E/%E5%AE%BD%E5%AD%97%E8%8A%82%E6%B3%A8%E5%85%A5.md)等原理）
+- SQL注入原理与常见利用的方法（报错注入、BOOL盲注、时间盲注、[宽字节注入](./常见漏洞/宽字节注入.md)等原理）
 - 各种Java反序列化原理（RMI、Fastjson、Weblogic）
 - fastjson的利用和原理？
 - redis无写权限，无反序列化问题，不能主从复制getshell，怎么利用？
-- [有ssrf+redis弱口令，禁用gopher协议，怎么利用？](https://github.com/SewellDinG/CyberSecInterviewPreparation/blob/master/常见漏洞/有ssrf+redis弱口令，禁用gopher协议.md)
+- [有ssrf+redis弱口令，禁用gopher协议，怎么利用？](./常见漏洞/有ssrf+redis弱口令，禁用gopher协议.md)
 - oracle的盲注和dnslog注入，说说看？
+- MySQL getshell？
+
+
+
+## 内网渗透
+
+- [内网基础知识？](./内网渗透/内网基础知识.md)
+- [活动目录有什么功能？](./内网渗透/活动目录有什么功能.md)
 
 
 
@@ -45,7 +53,7 @@
 - [渗透过程中碰到的问题？](./经验相关/渗透过程中碰到的问题.md)
 - 聊项目？印象最深刻的一次项目？项目介绍、项目中的难点、你在项目中充当的角色。STAR原则。
 - 做CTF的Web题有什么心得，说说看？
-- [内网渗透心得？](https://github.com/SewellDinG/CyberSecInterviewPreparation/blob/master/%E7%BB%8F%E9%AA%8C%E7%9B%B8%E5%85%B3/%E5%86%85%E7%BD%91%E6%B8%97%E9%80%8F.md)
+- [内网渗透心得？](./经验相关/内网渗透心得.md)
 
 
 
