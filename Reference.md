@@ -14,6 +14,7 @@
 - [如何将代码审计变成CTF---面向github代码审计](https://xz.aliyun.com/t/7256)：SSRF bypass，代码审计，三次绕过补丁
 - [经典写配置漏洞与几种变形](https://www.leavesongs.com/PENETRATION/thinking-about-config-file-arbitrary-write.html)：PHP，bypass正则
 - [暗度陈仓：基于国内某云的 Domain Fronting 技术实践](https://www.anquanke.com/post/id/195011)：域前置漏洞，CDN，Cobalt Strike's C2 Profile
+- [Blind XXE详解与Google CTF一道题分析](https://www.freebuf.com/vuls/207639.html)：XXE OOB实践
 
 ## 内网渗透
 
