@@ -24,11 +24,12 @@
 
 从漏洞原理、利用、防御、绕过四个层面查缺补漏。
 
-- CSRF相关的内容（域的概念、跨域的方法、CSRF防御的各种方法对比、Same-site Cookie）
+- [CSRF相关的内容（CSRF防御的各种方法对比、Same-site Cookie）](./常见漏洞/CSRF.md)
 - [SSRF漏洞原理与常见绕过的方法？](./常见漏洞/SSRF.md)
 - [XXE漏洞原理与常见利用的方法？](./常见漏洞/XXE.md)
 - SQL注入原理与常见利用的方法（报错注入、BOOL盲注、时间盲注、[宽字节注入](./常见漏洞/宽字节注入.md)等原理）
 - XSS？
+- 域的概念、跨域的方法？
 - 各种Java反序列化原理（RMI、Fastjson、Weblogic）
 - fastjson的利用和原理？
 - redis无写权限，无反序列化问题，不能主从复制getshell，怎么利用？
