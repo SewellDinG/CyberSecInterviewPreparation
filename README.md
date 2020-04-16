@@ -1,19 +1,19 @@
 ## 计算机网络
 
-- [TCP 三次握手和四次挥手？](./计算机网络/TCP三次握手和四次挥手.md)，补充：为什么不是两次或者四次？
+- [TCP 三次握手和四次挥手？补充：为什么不是两次或者四次？](./计算机网络/TCP三次握手和四次挥手.md)
 - [TCP 与 UDP 的区别？](./计算机网络/TCP与UDP的区别.md)
 - [浏览器打开某网站的工作流程？](./计算机网络/浏览器打开某网站的工作流程.md)
 - [域名解析的原理？](./计算机网络/域名解析的原理.md)
-- HTTP状态码的含义？
-- HTTP协议的组成部分，常见的HTTP头的含义？
-- HTTPS的秘钥交换过程？
+- [HTTP状态码的含义？](https://cyc2018.github.io/CS-Notes/#/notes/HTTP?id=三、http-状态码)
+- [HTTP协议的组成部分，常见的HTTP头的含义？](https://cyc2018.github.io/CS-Notes/#/notes/HTTP?id=四、http-首部)
+- [HTTPS的秘钥交换过程？](https://cyc2018.github.io/CS-Notes/#/notes/HTTP?id=六、https)
 
 
 
 ## 操作系统与编程语言
 
-- 进程、线程和协程的原理与区别？
-- 并发和并行的区别？
+- [进程、线程的原理与区别？](https://cyc2018.github.io/CS-Notes/#/notes/计算机操作系统 - 进程管理?id=进程与线程)
+- [并发和并行的区别？](https://cyc2018.github.io/CS-Notes/#/notes/计算机操作系统 - 概述?id=_1-并发)
 - Python3 与 Python2 的区别？进行了哪些优化，增加了什么新特性。
 - 线程池和多线程的区别？
 - 进程间的通信方式？
