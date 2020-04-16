@@ -48,7 +48,7 @@
 
 ## 经验相关
 
-- 自我介绍
+- [自我介绍](./经验相关/自我介绍.md)
 - 挖过的漏洞？
 - 渗透测试的流程和心得说说看？
 - [印象最深刻的一次渗透经历？](./经验相关/印象最深刻的一次渗透经历.md)
@@ -77,3 +77,6 @@
 ## 其他
 
 - [安全行业容易读错的单词](./其他/安全行业容易读错的单词.md)
+- [Git](https://cyc2018.github.io/CS-Notes/#/notes/Git)
+- [Docker](https://cyc2018.github.io/CS-Notes/#/notes/Docker)
+- [正则表达式](https://cyc2018.github.io/CS-Notes/#/notes/正则表达式)
