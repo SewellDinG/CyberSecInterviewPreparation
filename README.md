@@ -1,5 +1,7 @@
 刷面经，查缺补漏。🐶
 
+**Ref**：[点我点我点我](./Reference.md)
+
 ## 计算机网络
 
 - [TCP 三次握手和四次挥手？补充：为什么不是两次或者四次？](./计算机网络/TCP三次握手和四次挥手.md)
@@ -70,14 +72,3 @@
 - [Git](https://cyc2018.github.io/CS-Notes/#/notes/Git)
 - [Docker](https://cyc2018.github.io/CS-Notes/#/notes/Docker)
 - [正则表达式](https://cyc2018.github.io/CS-Notes/#/notes/正则表达式)
-
-## Ref
-
-- [Reference](./Reference.md)
-- [navisec 安全面试经验汇总](https://www.yuque.com/exploit/job/ycizkv)
-- [计算机方向-2021届同学们的2020春季实习面经](https://github.com/Kit4y/2020-Interview-experience)
-- [信息安全面试题汇总](https://github.com/d1nfinite/sec-interview)
-- [Leezj9671 渗透测试和安全面试经验](https://github.com/Leezj9671/Pentest_Interview)
-- [渗透测试面试近期热门题](https://www.freebuf.com/vuls/228750.html)
-- [tiaotiaolong 信息安全方面面试清单](https://github.com/tiaotiaolong/sec_interview_know_list)
-- [SecYouth 信息安全实习和校招的面经、真题和资料（旧）](https://github.com/SecYouth/sec-jobs)
