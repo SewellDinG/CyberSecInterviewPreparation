@@ -1,3 +1,5 @@
+刷面经，查缺补漏。🐶
+
 ## 计算机网络
 
 - [TCP 三次握手和四次挥手？补充：为什么不是两次或者四次？](./计算机网络/TCP三次握手和四次挥手.md)
@@ -8,8 +10,6 @@
 - [HTTP协议的组成部分，常见的HTTP头的含义？](https://cyc2018.github.io/CS-Notes/#/notes/HTTP?id=四、http-首部)
 - [HTTPS的秘钥交换过程？](https://cyc2018.github.io/CS-Notes/#/notes/HTTP?id=六、https)
 
-
-
 ## 操作系统与编程语言
 
 - [进程、线程的原理与区别？](https://cyc2018.github.io/CS-Notes/#/notes/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20-%20%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86?id=%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B)
@@ -17,8 +17,6 @@
 - Python3 与 Python2 的区别？进行了哪些优化，增加了什么新特性。
 - 线程池和多线程的区别？
 - 进程间的通信方式？
-
-
 
 ## 常见漏洞
 
@@ -37,14 +35,10 @@
 - oracle的盲注和dnslog注入，说说看？
 - [MySQL getshell？](./常见漏洞/MySQL%20getshell.md)
 
-
-
 ## 内网渗透
 
 - [内网基础知识？](./内网渗透/内网基础知识.md)
 - [活动目录有什么功能？](./内网渗透/活动目录有什么功能.md)
-
-
 
 ## 经验相关
 
@@ -58,8 +52,6 @@
 - 做CTF的Web题有什么心得，说说看？
 - [内网渗透心得？](./经验相关/内网渗透心得.md)
 
-
-
 ## HR
 
 - [为什么选择本公司？](./HR/为什么选择本公司.md)
@@ -72,11 +64,20 @@
 - 对薪资的要求？为什么想要这个数？
 - 最后一问，你有什么问题？
 
-
-
 ## 其他
 
 - [安全行业容易读错的单词](./其他/安全行业容易读错的单词.md)
 - [Git](https://cyc2018.github.io/CS-Notes/#/notes/Git)
 - [Docker](https://cyc2018.github.io/CS-Notes/#/notes/Docker)
 - [正则表达式](https://cyc2018.github.io/CS-Notes/#/notes/正则表达式)
+
+## Ref
+
+- [Reference](./Reference.md)
+- [navisec 安全面试经验汇总](https://www.yuque.com/exploit/job/ycizkv)
+- [计算机方向-2021届同学们的2020春季实习面经](https://github.com/Kit4y/2020-Interview-experience)
+- [信息安全面试题汇总](https://github.com/d1nfinite/sec-interview)
+- [Leezj9671 渗透测试和安全面试经验](https://github.com/Leezj9671/Pentest_Interview)
+- [渗透测试面试近期热门题](https://www.freebuf.com/vuls/228750.html)
+- [tiaotiaolong 信息安全方面面试清单](https://github.com/tiaotiaolong/sec_interview_know_list)
+- [SecYouth 信息安全实习和校招的面经、真题和资料（旧）](https://github.com/SecYouth/sec-jobs)
