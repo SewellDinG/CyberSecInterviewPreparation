@@ -12,8 +12,8 @@
 
 ## 操作系统与编程语言
 
-- [进程、线程的原理与区别？](https://cyc2018.github.io/CS-Notes/#/notes/计算机操作系统 - 进程管理?id=进程与线程)
-- [并发和并行的区别？](https://cyc2018.github.io/CS-Notes/#/notes/计算机操作系统 - 概述?id=_1-并发)
+- [进程、线程的原理与区别？](https://cyc2018.github.io/CS-Notes/#/notes/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20-%20%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86?id=%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B)
+- [并发和并行的区别？](https://cyc2018.github.io/CS-Notes/#/notes/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20-%20%E6%A6%82%E8%BF%B0?id=_1-%E5%B9%B6%E5%8F%91)
 - Python3 与 Python2 的区别？进行了哪些优化，增加了什么新特性。
 - 线程池和多线程的区别？
 - 进程间的通信方式？
@@ -35,7 +35,7 @@
 - redis无写权限，无反序列化问题，不能主从复制getshell，怎么利用？
 - [有ssrf+redis弱口令，禁用gopher协议，怎么利用？](./常见漏洞/有ssrf+redis弱口令，禁用gopher协议.md)
 - oracle的盲注和dnslog注入，说说看？
-- [MySQL getshell？](./常见漏洞/MySQL getshell.md)
+- [MySQL getshell？](./常见漏洞/MySQL%20getshell.md)
 
 
 
