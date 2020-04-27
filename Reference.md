@@ -1,3 +1,13 @@
+## 面经
+
+- [navisec 安全面试经验汇总](https://www.yuque.com/exploit/job/ycizkv)：覆盖面广，较详细
+- [d1nfinite 信息安全面试题汇总](https://github.com/d1nfinite/sec-interview)：只有题，有出现频率
+- [渗透测试面试近期热门题](https://www.freebuf.com/vuls/228750.html)：一问一答
+- [Kit4y 计算机方向-2021届同学们的2020春季实习面经](https://github.com/Kit4y/2020-Interview-experience)：真实面经，安全方向较少
+- [tiaotiaolong 信息安全方面面试清单](https://github.com/tiaotiaolong/sec_interview_know_list)：只有题，知识清单
+- [Leezj9671 渗透测试和安全面试经验](https://github.com/Leezj9671/Pentest_Interview)：个人整理
+- [SecYouth 信息安全实习和校招的面经、真题和资料（旧）](https://github.com/SecYouth/sec-jobs)：信息安全实习/秋招群
+
 ## 计算机网络
 
 - [TCP三次握手、四次挥手出现意外情况时，如何保证稳定可靠？](https://wemp.app/posts/c3938333-9bb5-4758-93b4-039107260a80)
