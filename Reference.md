@@ -23,6 +23,7 @@
 
 - [内网渗透基础知识](http://mang0.me/archis/7db24e65)：工作组、域环境相关基本概念
 - [彻底理解Windows认证 - 议题解读](https://payloads.online/archivers/2018-11-30/1)：从本地认证，网络认证，域认证介绍了相关流程及相应技术
+- [《内网安全攻防-渗透测试实战指南》](https://github.com/SewellDinG/Pentest-Notes)：内网渗透的步骤和流程，以及相应的技术操作
 
 ## 工具使用
 
@@ -31,4 +32,4 @@
 
 ## 经验相关
 
-- [红方人员作战执行手册](https://github.com/klionsec/RedTeamer)
+- [红方人员作战执行手册](https://github.com/klionsec/RedTeamer)：渗透流程，入口权限 => 内网搜集/探测 => 免杀提权[非必须] => 抓取登录凭证 => 跨平台横向 => 入口维持 => 数据回传 => 定期权限维护
