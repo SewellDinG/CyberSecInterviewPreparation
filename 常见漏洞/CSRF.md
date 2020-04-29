@@ -6,6 +6,8 @@ https://xz.aliyun.com/t/7297
 
 CSRF（Cross-Site Request Forgery 跨站请求伪造，也被称为One Click Attack或Session Riding，XSRF），**攻击者盗用了你的身份，以你的名义发送恶意请求，对服务器来说这个请求是完全合法的，但是却完成了攻击者所期望的一个操作**，比如以你的名义发送邮件、发消息，盗取你的账号，添加系统管理员，甚至于购买商品、虚拟货币转账等。
 
+**CSRF 攻击依赖的是跨站请求会自动带上用户 cookie，进而可以伪造请求，代替用户执行敏感操作。**
+
 ## 原理
 
 ![](https://img-blog.csdnimg.cn/20200225224153721.jpg)
@@ -56,8 +58,8 @@ CSRF攻击特点：
 
 - SameSite-Cookies是一种机制，用于定义Cookie如何跨域发送，这是谷歌开发的一种安全机制，目的是尝试阻止CSRF（Cross-site request forgery 跨站请求伪造）以及XSSI（Cross Site Script Inclusion (XSSI) 跨站脚本包含）攻击。
 - SameSite需要一个值（如果没有设置值，默认是Strict），值可以是Lax或者Strict。
-
 - [SameSite Cookie，防止 CSRF 攻击](https://www.cnblogs.com/ziyunfei/p/5637945.html)
+- [CSRF 漏洞的末日？关于 Cookie SameSite 那些你不得不知道的事](https://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg==&mid=2247484949&idx=1&sn=73f32260765596aa0fe773c755561308&chksm=96f41978a183906e0b4f21fddcbe2d19f667b6e6cf2bdb66160a744d161a7bac7b420acac005&mpshare=1&scene=1&srcid=&sharer_sharetime=1588122156973&sharer_shareid=a7d99c78943a626e64cade4860efb7d9#rd)
 
 ## 绕过
 
