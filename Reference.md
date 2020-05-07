@@ -12,7 +12,7 @@
 
 - [TCP三次握手、四次挥手出现意外情况时，如何保证稳定可靠？](https://wemp.app/posts/c3938333-9bb5-4758-93b4-039107260a80)
 - [TCP 为什么是三次握手，而不是两次或四次？](https://www.zhihu.com/question/24853633)
-- [IP地址和CIDR](https://www.cnblogs.com/cocowool/p/8303795.html)
+- [为什么 IPv6 难以取代 IPv4？](https://draveness.me//whys-the-design-ipv6-replacing-ipv4)
 - [CS-Notes](https://cyc2018.github.io/CS-Notes)：算法、计算机操作系统、计算机网络、数据库
 
 ## 操作系统与编程语言
