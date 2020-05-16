@@ -54,6 +54,7 @@
 - 做CTF的Web题有什么心得，说说看？
 - [内网渗透心得？](./经验相关/内网渗透心得.md)
 - [内网渗透经历？](./经验相关/内网渗透经历.md)
+- [HW经历？](./经验相关/HW经历.md)
 
 ## HR
 
@@ -73,3 +74,5 @@
 - [Git](https://cyc2018.github.io/CS-Notes/#/notes/Git)
 - [Docker](https://cyc2018.github.io/CS-Notes/#/notes/Docker)
 - [正则表达式](https://cyc2018.github.io/CS-Notes/#/notes/正则表达式)
+- [英文介绍](./其他/英文介绍.md)
+
