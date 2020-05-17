@@ -30,6 +30,7 @@
 - [SameSite Cookie，防止 CSRF 攻击](https://www.cnblogs.com/ziyunfei/p/5637945.html)：再见，CSRF
 - [CSRF 漏洞的末日？关于 Cookie SameSite 那些你不得不知道的事](https://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg==&mid=2247484949&idx=1&sn=73f32260765596aa0fe773c755561308&chksm=96f41978a183906e0b4f21fddcbe2d19f667b6e6cf2bdb66160a744d161a7bac7b420acac005&mpshare=1&scene=1&srcid=&sharer_sharetime=1588122156973&sharer_shareid=a7d99c78943a626e64cade4860efb7d9#rd)：从同源到同站，深入解析SameSite对CSRF影响
 - [细数 redis 的几种 getshell 方法](https://paper.seebug.org/1169)：写文件、反序列化、主从复制、Lua RCE
+- [PHP 突破 disable_functions 常用姿势以及使用 Fuzz 挖掘含内部系统调用的函数](https://www.anquanke.com/post/id/197745)：bypass disable_functions总结
 
 ## 内网渗透
 
