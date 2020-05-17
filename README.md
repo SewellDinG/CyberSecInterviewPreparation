@@ -36,6 +36,7 @@
 - [有ssrf+redis弱口令，禁用gopher协议，怎么利用？](./常见漏洞/有ssrf+redis弱口令，禁用gopher协议.md)
 - oracle的盲注和dnslog注入，说说看？
 - [MySQL getshell？](./常见漏洞/MySQL%20getshell.md)
+- [bypass disable_functions](./常见漏洞/bypass disable_functions.md)
 
 ## 内网渗透
 
