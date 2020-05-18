@@ -8,6 +8,8 @@ CSRF（Cross-Site Request Forgery 跨站请求伪造，也被称为One Click Att
 
 **CSRF 攻击依赖的是跨站请求会自动带上用户 cookie，进而可以伪造请求，代替用户执行敏感操作。**
 
+寻找CSRF：找浏览器和服务器之间的交互，然后依次分析。
+
 ## 原理
 
 ![](https://img-blog.csdnimg.cn/20200225224153721.jpg)
@@ -74,3 +76,6 @@ CSRF攻击特点：
 CSRF听起来像跨站脚本攻击(XSS)，但与XSS不同。XSS利用站点内的信任用户，而CSRF则通过伪装来自受信任用户的请求来利用受信任的网站。
 
 什么意思呢？XSS利用的是用户对指定网站的信任，CSRF利用是网站对用户浏览器的信任。
+
+## Self-XSS + CSRF
+
