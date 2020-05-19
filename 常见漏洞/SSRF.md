@@ -145,3 +145,4 @@ DNS重绑定可以利用于ssrf绕过 ，bypass 同源策略等
 ## 实例
 
 - 代码审计。三次绕过补丁。自动更新文章的爬虫，可控制url参数。[1](https://xz.aliyun.com/t/7256)
+- 使用xray的反连平台来利用302和dns rebinding。[2](https://xray.cool/xray/#/scenario/reverse_server_ssrf)
