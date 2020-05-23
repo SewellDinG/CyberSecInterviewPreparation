@@ -32,10 +32,7 @@
 - XSS？
 - [域的概念、跨域的方法？](./常见漏洞/域的概念、跨域的方法.md)
 - 各种Java反序列化原理（RMI、Fastjson、Weblogic）
-- fastjson的利用和原理？
-- redis无写权限，无反序列化问题，不能主从复制getshell，怎么利用？
-- [有ssrf+redis弱口令，禁用gopher协议，怎么利用？](./常见漏洞/有ssrf+redis弱口令，禁用gopher协议.md)
-- oracle的盲注和dnslog注入，说说看？
+- [Redis攻击技巧](./常见漏洞/Redis攻击技巧.md)
 - [MySQL getshell？](./常见漏洞/MySQL%20getshell.md)
 - [bypass disable_functions](./常见漏洞/bypass%20disable_functions.md)
 - [Fastjson反序列化漏洞的原理和利用？](./常见漏洞/Fastjson反序列化漏洞.md)
