@@ -15,6 +15,7 @@
 - [为什么 IPv6 难以取代 IPv4？](https://draveness.me//whys-the-design-ipv6-replacing-ipv4)
 - [CS-Notes](https://cyc2018.github.io/CS-Notes)：算法、计算机操作系统、计算机网络、数据库
 - [高匿代理和透明代理的区别](https://huangzy.cn/article/2019/6/gn-and-tm-proxy)
+- [彻底弄懂session，cookie，token](https://segmentfault.com/a/1190000017831088)
 
 ## 操作系统与编程语言
 
