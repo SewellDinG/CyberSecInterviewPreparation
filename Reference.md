@@ -33,6 +33,7 @@
 - [细数 redis 的几种 getshell 方法](https://paper.seebug.org/1169)：写文件、反序列化、主从复制、Lua RCE
 - [PHP 突破 disable_functions 常用姿势以及使用 Fuzz 挖掘含内部系统调用的函数](https://www.anquanke.com/post/id/197745)：bypass disable_functions总结
 - [Fastjson 反序列化漏洞自动化检测](https://zhuanlan.zhihu.com/p/99075925)：fastjson成因
+- [Fastcgi协议分析 && PHP-FPM未授权访问漏洞](https://www.leavesongs.com/PENETRATION/fastcgi-and-php-fpm.html)：直接给FPM发包为什么能执行RCE
 
 ## 内网渗透
 
