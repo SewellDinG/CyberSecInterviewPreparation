@@ -31,6 +31,8 @@
 - [SameSite Cookie，防止 CSRF 攻击](https://www.cnblogs.com/ziyunfei/p/5637945.html)：再见，CSRF
 - [CSRF 漏洞的末日？关于 Cookie SameSite 那些你不得不知道的事](https://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg==&mid=2247484949&idx=1&sn=73f32260765596aa0fe773c755561308&chksm=96f41978a183906e0b4f21fddcbe2d19f667b6e6cf2bdb66160a744d161a7bac7b420acac005&mpshare=1&scene=1&srcid=&sharer_sharetime=1588122156973&sharer_shareid=a7d99c78943a626e64cade4860efb7d9#rd)：从同源到同站，深入解析SameSite对CSRF影响
 - [细数 redis 的几种 getshell 方法](https://paper.seebug.org/1169)：写文件、反序列化、主从复制、Lua RCE
+- [Redis相关安全学习小记](https://mp.weixin.qq.com/s?__biz=MzIzOTE1ODczMg==&mid=2247484020&idx=1&sn=06db219408f093c65d252c506ad502df&chksm=e92f16d7de589fc1df6fea9ebba21db9e8f8e76a0db89887b6eb9fa6f07f8c61d34977a6405c&mpshare=1&scene=1&srcid=&sharer_sharetime=1590661447618&sharer_shareid=a7d99c78943a626e64cade4860efb7d9#rd)：CRLF操作、绕过webshell中的?问号
+- [对 Redis 在 Windows 下利用方式思考](https://www.t00ls.net/thread-56522-1-1.html)：处理脏数据、DLL劫持、link劫持、写配置文件、覆写exe
 - [PHP 突破 disable_functions 常用姿势以及使用 Fuzz 挖掘含内部系统调用的函数](https://www.anquanke.com/post/id/197745)：bypass disable_functions总结
 - [Fastjson 反序列化漏洞自动化检测](https://zhuanlan.zhihu.com/p/99075925)：fastjson成因
 - [Fastcgi协议分析 && PHP-FPM未授权访问漏洞](https://www.leavesongs.com/PENETRATION/fastcgi-and-php-fpm.html)：直接给FPM发包为什么能执行RCE
