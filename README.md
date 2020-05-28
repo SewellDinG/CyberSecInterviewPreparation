@@ -8,9 +8,7 @@
 - [TCP 与 UDP 的区别？](./计算机网络/TCP与UDP的区别.md)
 - [浏览器打开某网站的工作流程？](./计算机网络/浏览器打开某网站的工作流程.md)
 - [域名解析的原理？](./计算机网络/域名解析的原理.md)
-- [HTTP状态码的含义？](https://cyc2018.github.io/CS-Notes/#/notes/HTTP?id=三、http-状态码)
-- [HTTP协议的组成部分，常见的HTTP头的含义？](https://cyc2018.github.io/CS-Notes/#/notes/HTTP?id=四、http-首部)
-- [HTTPS的秘钥交换过程？](https://cyc2018.github.io/CS-Notes/#/notes/HTTP?id=六、https)
+- [HTTP（方法、状态码、HTTPS）](https://cyc2018.github.io/CS-Notes/#/notes/HTTP)
 - [Session、Cookie、Token](./计算机网络/Session、Cookie、Token.md)
 - [进程、线程、协程](./计算机网络/进程、线程、协程.md)
 
