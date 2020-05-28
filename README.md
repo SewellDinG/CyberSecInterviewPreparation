@@ -10,15 +10,12 @@
 - [域名解析的原理？](./计算机网络/域名解析的原理.md)
 - [HTTP（方法、状态码、HTTPS）](https://cyc2018.github.io/CS-Notes/#/notes/HTTP)
 - [Session、Cookie、Token](./计算机网络/Session、Cookie、Token.md)
-- [进程、线程、协程](./计算机网络/进程、线程、协程.md)
 
 ## 操作系统与编程语言
 
-- [进程、线程的原理与区别？](https://cyc2018.github.io/CS-Notes/#/notes/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20-%20%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86?id=%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B)
-- [并发和并行的区别？](https://cyc2018.github.io/CS-Notes/#/notes/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20-%20%E6%A6%82%E8%BF%B0?id=_1-%E5%B9%B6%E5%8F%91)
-- Python3 与 Python2 的区别？进行了哪些优化，增加了什么新特性。
-- 线程池和多线程的区别？
-- 进程间的通信方式？
+- [进程、线程、协程（通信方式）](./操作系统与编程语言/进程、线程、协程.md)
+- [并发和并行](./操作系统与编程语言/并发和并行.md)
+- [Python3 与 Python2 的区别？](./操作系统与编程语言/Python3与Python2的区别.md)
 
 ## 常见漏洞
 
@@ -28,6 +25,7 @@
 - [SSRF漏洞原理与常见绕过的方法？](./常见漏洞/SSRF.md)
 - [XXE漏洞原理与常见利用的方法？](./常见漏洞/XXE.md)
 - SQL注入原理与常见利用的方法（报错注入、BOOL盲注、时间盲注、[宽字节注入](./常见漏洞/宽字节注入.md)等原理）
+- [MySQL](https://github.com/aleenzz/MYSQL_SQL_BYPASS_WIKI)、[MsSQL注入](https://github.com/aleenzz/MSSQL_SQL_BYPASS_WIKI)
 - XSS？
 - [域的概念、跨域的方法？](./常见漏洞/域的概念、跨域的方法.md)
 - 各种Java反序列化原理（RMI、Fastjson、Weblogic）
@@ -38,6 +36,7 @@
 
 ## 内网渗透
 
+- [《内网安全攻防-渗透测试实战指南》](https://github.com/SewellDinG/Pentest-Notes)
 - [内网基础知识？](./内网渗透/内网基础知识.md)
 - [活动目录有什么功能？](./内网渗透/活动目录有什么功能.md)
 
