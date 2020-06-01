@@ -24,7 +24,7 @@
 
 从漏洞原理、利用、防御、绕过四个层面查缺补漏。
 
-- [XSS](./常见漏洞/XSS.md)：反射型、存储型、DOM型
+- [XSS](./常见漏洞/XSS.md)：反射型、存储型、DOM型、CSP
 - [MySQL](https://github.com/aleenzz/MYSQL_SQL_BYPASS_WIKI)、[MsSQL注入](https://github.com/aleenzz/MSSQL_SQL_BYPASS_WIKI)：联合注入、报错注入、布尔或时间盲注、堆叠注入、insert|update|delete|order|limit|from等注入、二次注入和[宽字节注入](./常见漏洞/宽字节注入.md)
 - [CSRF](./常见漏洞/CSRF.md)：SameSite Cookie
 - [XXE](./常见漏洞/XXE.md)：Blind XXE、OOB
@@ -33,7 +33,7 @@
 - [MySQL getshell](./常见漏洞/MySQL%20getshell.md)：outfile（dumpfile）、log（slow log）
 - [bypass disable_functions](./常见漏洞/bypass%20disable_functions.md)：LD_PRELOAD、PHP-FPM/FastCGI
 - [Fastjson反序列化漏洞](./常见漏洞/Fastjson反序列化漏洞.md)：JNDI注入、urldns
-- [域的概念、跨域的方法？](./常见漏洞/域的概念、跨域的方法.md)
+- [CORS](./常见漏洞/域的概念、跨域的方法.md)：CORS、SOP、JSONP、域、跨域
 
 ## 内网渗透
 
