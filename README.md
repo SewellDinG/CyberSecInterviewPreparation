@@ -24,18 +24,16 @@
 
 从漏洞原理、利用、防御、绕过四个层面查缺补漏。
 
-- [CSRF相关的内容（CSRF防御的各种方法对比、Same-site Cookie）](./常见漏洞/CSRF.md)
-- [SSRF漏洞原理与常见绕过的方法？](./常见漏洞/SSRF.md)
-- [XXE漏洞原理与常见利用的方法？](./常见漏洞/XXE.md)
-- SQL注入原理与常见利用的方法（报错注入、BOOL盲注、时间盲注、[宽字节注入](./常见漏洞/宽字节注入.md)等原理）
-- [MySQL](https://github.com/aleenzz/MYSQL_SQL_BYPASS_WIKI)、[MsSQL注入](https://github.com/aleenzz/MSSQL_SQL_BYPASS_WIKI)
-- XSS？
+- [XSS](./常见漏洞/XSS.md)：反射型、存储型、DOM型
+- [MySQL](https://github.com/aleenzz/MYSQL_SQL_BYPASS_WIKI)、[MsSQL注入](https://github.com/aleenzz/MSSQL_SQL_BYPASS_WIKI)：联合注入、报错注入、布尔或时间盲注、堆叠注入、insert|update|delete|order|limit|from等注入、二次注入和[宽字节注入](./常见漏洞/宽字节注入.md)
+- [CSRF](./常见漏洞/CSRF.md)：SameSite Cookie
+- [XXE](./常见漏洞/XXE.md)：Blind XXE、OOB
+- [SSRF](./常见漏洞/SSRF.md)：302、DNS rebinding
+- [Redis攻击技巧](./常见漏洞/Redis攻击技巧.md)：主从复制、dict、详见Reference
+- [MySQL getshell](./常见漏洞/MySQL%20getshell.md)：outfile（dumpfile）、log（slow log）
+- [bypass disable_functions](./常见漏洞/bypass%20disable_functions.md)：LD_PRELOAD、PHP-FPM/FastCGI
+- [Fastjson反序列化漏洞](./常见漏洞/Fastjson反序列化漏洞.md)：JNDI注入、urldns
 - [域的概念、跨域的方法？](./常见漏洞/域的概念、跨域的方法.md)
-- 各种Java反序列化原理（RMI、Fastjson、Weblogic）
-- [Redis攻击技巧](./常见漏洞/Redis攻击技巧.md)
-- [MySQL getshell？](./常见漏洞/MySQL%20getshell.md)
-- [bypass disable_functions](./常见漏洞/bypass%20disable_functions.md)
-- [Fastjson反序列化漏洞的原理和利用？](./常见漏洞/Fastjson反序列化漏洞.md)
 
 ## 内网渗透
 
@@ -67,7 +65,7 @@
 - 同事间产生分歧怎么办？
 - 对你影响最大的一件事/人？
 - 对薪资的要求？为什么想要这个数？
-- 最后一问，你有什么问题？
+- [最后一问，你有什么问题？](./HR/你有什么问题.md)
 
 ## 其他
 
