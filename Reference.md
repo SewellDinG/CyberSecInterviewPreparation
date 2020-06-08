@@ -21,6 +21,10 @@
 
 - [对比学习：Golang VS Python3](https://juejin.im/post/5cd945d6e51d453d022cb65f)
 
+## 密码学
+
+- [PKI/CA工作原理及架构](https://www.jianshu.com/p/c65fa3af1c01)：数字签名、数字证书、PKI/CA体系
+
 ## 常见漏洞
 
 - [SSRF学习笔记](https://evi1.cn/post/ssrf)、[SSRF 学习记录 【详细】](https://hackmd.io/@Lhaihai/H1B8PJ9hX)、[浅析Redis中SSRF的利用](https://xz.aliyun.com/t/5665)、[浅析SSRF认证攻击Redis](https://www.smi1e.top/%e6%b5%85%e6%9e%90ssrf%e8%ae%a4%e8%af%81%e6%94%bb%e5%87%bbredis/)：基础，RESP数据格式，利用gopher攻击MySQL、FastCGI、Redis等服务，Weblogic、Discuz X3.2 SSRF
