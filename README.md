@@ -12,6 +12,7 @@
 - [Session、Cookie、Token](./计算机网络/Session、Cookie、Token.md)
 - [http1.0 http1.1 http2.0特性及区别](./计算机网络/http1.0%20http1.1%20http2.0特性及区别.md)
 - [端口扫描的几种方式](./计算机网络/端口扫描的几种方式.md)：PING、TCP半开放和全连接、UDP、隐蔽扫描
+- [HTTP和HTTPS区别](https://juejin.im/entry/58d7635e5c497d0057fae036)
 
 ## 操作系统与编程语言
 
