@@ -36,6 +36,7 @@
 - [bypass disable_functions](./常见漏洞/bypass%20disable_functions.md)：LD_PRELOAD、PHP-FPM/FastCGI
 - [Fastjson反序列化漏洞](./常见漏洞/Fastjson反序列化漏洞.md)：JNDI注入、urldns
 - [CORS](./常见漏洞/域的概念、跨域的方法.md)：CORS、SOP、JSONP、域、跨域
+- [微信小程序](./常见漏洞/微信小程序.md)：信息搜集、提取wxapkg、常见漏洞
 - [其他漏洞](./常见漏洞/其他漏洞.md)：上传、密码重置
 - [其他技巧](./常见漏洞/其他技巧.md)
 
