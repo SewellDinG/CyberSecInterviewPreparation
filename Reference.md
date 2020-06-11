@@ -42,6 +42,7 @@
 - [PHP 突破 disable_functions 常用姿势以及使用 Fuzz 挖掘含内部系统调用的函数](https://www.anquanke.com/post/id/197745)：bypass disable_functions总结
 - [Fastjson 反序列化漏洞自动化检测](https://zhuanlan.zhihu.com/p/99075925)：fastjson成因
 - [Fastcgi协议分析 && PHP-FPM未授权访问漏洞](https://www.leavesongs.com/PENETRATION/fastcgi-and-php-fpm.html)：直接给FPM发包为什么能执行RCE
+- [微信小程序渗透思路](https://mp.weixin.qq.com/s?__biz=MzI0NzEwOTM0MA==&mid=2652476639&idx=1&sn=6c61203fa33822a08f7195107d60e741)：常见小程序漏洞，网页>app>H5>小程序
 
 ## 内网渗透
 
