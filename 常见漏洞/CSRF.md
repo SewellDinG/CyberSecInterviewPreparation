@@ -59,8 +59,10 @@ CSRF攻击特点：
 \*\* 以上都是老旧的方法，除此之外，可以利用**set-cookie中的SameSite属性**，被誉为CSRF终极解决办法：
 
 - SameSite-Cookies是一种机制，用于定义Cookie如何跨域发送，这是谷歌开发的一种安全机制，目的是尝试阻止CSRF（Cross-site request forgery 跨站请求伪造）以及XSSI（Cross Site Script Inclusion (XSSI) 跨站脚本包含）攻击。
-- SameSite需要一个值（如果没有设置值，默认是Strict），值可以是Lax或者Strict。
-- [SameSite Cookie，防止 CSRF 攻击](https://www.cnblogs.com/ziyunfei/p/5637945.html)
+- 对于 SameSite=Strict 的 cookie：只有同站请求会携带此类 cookie。
+- 对于 SameSite=None 的 cookie：同站请求和跨站请求都会携带此类 cookie。
+- Lax 的行为介于 None 和 Strict 之间。对于 SameSite=Lax 的 cookie，除了同站请求会携带此类 cookie 之外，特定情况（安全的顶级域名跳转）的跨站请求也会携带此类 cookie。
+- **2016年出现的SameSite属性，默认为None；在19年11月新提案IBC规定SameSite值默认是Lax。**同时，如果是指None，则需要在设置Secure属性，换句话说，只有在HTTPS的情况下才能使用None。
 - [CSRF 漏洞的末日？关于 Cookie SameSite 那些你不得不知道的事](https://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg==&mid=2247484949&idx=1&sn=73f32260765596aa0fe773c755561308&chksm=96f41978a183906e0b4f21fddcbe2d19f667b6e6cf2bdb66160a744d161a7bac7b420acac005&mpshare=1&scene=1&srcid=&sharer_sharetime=1588122156973&sharer_shareid=a7d99c78943a626e64cade4860efb7d9#rd)
 
 ## 绕过
