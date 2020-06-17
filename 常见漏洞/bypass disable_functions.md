@@ -26,7 +26,7 @@
 
    FastCGI 是 CGI 协议的升级版，用于封装 webserver 发送给 php 解释器的数据，通过 PHP-FPM 程序按照 FastCGI 协议进行处理和解析数据，返回结果给 webserver。
 
-   原理：https://zhuanlan.zhihu.com/p/75114351，php-fpm是一个fastcgi协议解析器，负责按照fastcgi的协议将TCP流解析成真正的数据。**PHP-FPM默认监听9000端口，我们可以自己构造fastcgi协议，和fpm进行通信，以此来bypass。**
+   原理：[https://zhuanlan.zhihu.com/p/75114351](https://zhuanlan.zhihu.com/p/75114351)，php-fpm是一个fastcgi协议解析器，负责按照fastcgi的协议将TCP流解析成真正的数据。**PHP-FPM默认监听9000端口，我们可以自己构造fastcgi协议，和fpm进行通信，以此来bypass。**
 
    蚁剑：生成ext，攻击php-fpm执行ext，在目标机器本地开启一个新的php server，然后再用受限制的 webshell 转发请求到新开启的php server上去。新开启的php server不使用php.ini，从而bypass disable_functions。
 
