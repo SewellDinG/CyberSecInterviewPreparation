@@ -23,3 +23,11 @@ DNS log：
 ```
 
 原理是 `java.net.InetAddress` 这个类在实例化时会尝试做对 `example.com` 做域名解析，这时候可以通过 dns log 的方式得知漏洞是否存在了。
+
+在vulhub环境中，用反弹shell的payload来打可以成功，但换这个检测用的payload就不行。 其实原因是，有的开发在使用fastjson解析请求时会使用Spring的@RequestBody注释，告诉解析引擎，我需要的是一个User类对象（其实就可以理解为JSON中不加@type的普通对象）。
+
+这时候你传入的是{"@type":"java.net.Inet4Address","val":"xxxxx"}，相当于给到他的是java.net.Inet4Address对象，所以会爆出一个type not match的异常。 
+
+所以建议测试fastjson漏洞，最外层一定是数组或者对象，不要加@type，然后将Payload作为其中一个键值，比如： { "xxx": {"@type":"java.net.InetAddress","val":"dnslog"} } 
+
+这样写通常就不会有type not match的错误了。
