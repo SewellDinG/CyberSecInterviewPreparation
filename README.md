@@ -47,6 +47,7 @@
 - [《内网安全攻防-渗透测试实战指南》](https://github.com/SewellDinG/Pentest-Notes)
 - [内网基础知识？](./内网渗透/内网基础知识.md)
 - [活动目录有什么功能？](./内网渗透/活动目录有什么功能.md)
+- [内网横向移动学习备忘录](https://mp.weixin.qq.com/s/iwZtY-tToNRQYRi_qRQwjg)：Cobalt Strike、IPC$ && 计划任务、WMI、PsExec、WinRM
 
 ## 经验相关
 
