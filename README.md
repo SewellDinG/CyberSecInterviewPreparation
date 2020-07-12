@@ -8,11 +8,12 @@
 - [TCP 与 UDP 的区别](./计算机网络/TCP与UDP的区别.md)
 - [浏览器打开某网站的工作流程](./计算机网络/浏览器打开某网站的工作流程.md)
 - [域名解析的原理](./计算机网络/域名解析的原理.md)
+- [HTTPS加密通信](./计算机网络/HTTPS加密通信.md)
 - [HTTP（方法、状态码、HTTPS）](https://cyc2018.github.io/CS-Notes/#/notes/HTTP)
 - [Session、Cookie、Token](./计算机网络/Session、Cookie、Token.md)
 - [http1.0 http1.1 http2.0特性及区别](./计算机网络/http1.0%20http1.1%20http2.0特性及区别.md)
-- [端口扫描的几种方式](./计算机网络/端口扫描的几种方式.md)：PING、TCP半开放和全连接、UDP、隐蔽扫描
 - [HTTP和HTTPS区别](https://juejin.im/entry/58d7635e5c497d0057fae036)
+- [端口扫描的几种方式](./计算机网络/端口扫描的几种方式.md)：PING、TCP半开放和全连接、UDP、隐蔽扫描
 
 ## 操作系统与编程语言
 
