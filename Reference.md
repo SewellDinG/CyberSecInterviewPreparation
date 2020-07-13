@@ -58,3 +58,5 @@
 ## 经验相关
 
 - [红方人员作战执行手册](https://github.com/klionsec/RedTeamer)：渗透流程，入口权限 => 内网搜集/探测 => 免杀提权[非必须] => 抓取登录凭证 => 跨平台横向 => 入口维持 => 数据回传 => 定期权限维护
+
+- [渗透红线Checklist](https://github.com/EvilAnne/Violation_Pnetest)：红队中的注意事项，Tricks
