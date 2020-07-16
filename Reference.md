@@ -44,6 +44,7 @@
 - [微信小程序渗透思路](https://www.hackinn.com/index.php/archives/672)：常见小程序漏洞，网页>app>H5>小程序
 - [sqlmap_dns注入配置方法](https://mp.weixin.qq.com/s/YrtOdjIvJ0JV4twonp5FrQ)：MySQL、Windows、SQLMAP、DNSLog、dns-domain
 - [内网穿透从搭建到溯源](https://mp.weixin.qq.com/s/yccot8vJw9yNLOrwUshkLQ)：从网络层、传输层、应用层分析内网穿透
+- [内网流量规避](https://mp.weixin.qq.com/s/ukOJO8vWLNCrQniPAfJ02A)：DNS隧道、DNS域前置
 
 ## 内网渗透
 
