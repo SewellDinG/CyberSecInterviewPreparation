@@ -9,7 +9,7 @@
 - [浏览器打开某网站的工作流程](./计算机网络/浏览器打开某网站的工作流程.md)
 - [域名解析的原理](./计算机网络/域名解析的原理.md)
 - [HTTPS加密通信](./计算机网络/HTTPS加密通信.md)
-- [HTTP（方法、状态码、HTTPS）](https://cyc2018.github.io/CS-Notes/#/notes/HTTP)
+- [HTTP（方法、状态码、HTTPS）](http://www.cyc2018.xyz/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/HTTP/HTTP.html)
 - [Session、Cookie、Token](./计算机网络/Session、Cookie、Token.md)
 - [http1.0 http1.1 http2.0特性及区别](./计算机网络/http1.0%20http1.1%20http2.0特性及区别.md)
 - [HTTP和HTTPS区别](https://juejin.im/entry/58d7635e5c497d0057fae036)
@@ -80,8 +80,8 @@
 ## 其他
 
 - [安全行业容易读错的单词](./其他/安全行业容易读错的单词.md)
-- [Git](https://cyc2018.github.io/CS-Notes/#/notes/Git)
-- [Docker](https://cyc2018.github.io/CS-Notes/#/notes/Docker)
-- [正则表达式](https://cyc2018.github.io/CS-Notes/#/notes/正则表达式)
+- [Git](https://labuladong.gitbook.io/algo/di-wu-zhang-ji-shu-wen-zhang-xi-lie/git-chang-yong-ming-ling)
+- [Docker](http://www.cyc2018.xyz/%E5%85%B6%E5%AE%83/%E7%BC%96%E7%A0%81%E5%AE%9E%E8%B7%B5/Docker.html)
+- [正则表达式](http://www.cyc2018.xyz/%E5%85%B6%E5%AE%83/%E7%BC%96%E7%A0%81%E5%AE%9E%E8%B7%B5/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html)
 - [英文介绍](./其他/英文介绍.md)
 
